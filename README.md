@@ -32,7 +32,7 @@ cd ..
 Instalar todas las dependencias el proyecto.
 
 ```{bash}
-pip install -r uirements.txt
+pip install -r requirements.txt
 ```
 
 -   Paso 5
