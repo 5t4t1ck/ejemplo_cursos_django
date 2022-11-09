@@ -34,16 +34,7 @@ Instalar todas las dependencias el proyecto.
 ```{bash}
 pip install -r requirements.txt
 ```
-
 -   Paso 5
-
-Crear el super usuario
-
-```{bash}
-python manage.py createsuperuser
-```
-
--   Paso 6
 
 Preparar las Migraciones.
 
@@ -51,7 +42,7 @@ Preparar las Migraciones.
 python manage.py makemigrations
 ```
 
--   Paso 7
+-   Paso 6
 
 Realizar las migraciones.
 
@@ -59,6 +50,13 @@ Realizar las migraciones.
 python manage.py migrate
 ```
 
+-   Paso 7
+
+Crear el super usuario
+
+```{bash}
+python manage.py createsuperuser
+```
 -   Paso 8
 
 Correr el Servidor.
